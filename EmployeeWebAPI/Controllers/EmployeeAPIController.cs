@@ -33,5 +33,19 @@ namespace EmployeeWebAPI.Controllers
             _dbContext.SaveChanges();
             return Ok("Employee Added Successfully");
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult RemoveEmployee(int id)
+        {
+            var res = _dbContext.EmployeeAPI.Find(id);
+            if (res is not null)
+            {
+                _dbContext.EmployeeAPI.Remove(res);
+                _dbContext.SaveChanges();
+                return Ok("Employee Deleted!");
+            }
+
+            return NotFound("Employee Not Found!");
+        }
     }
 }
