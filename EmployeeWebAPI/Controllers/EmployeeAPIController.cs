@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeWebAPI.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]/")]
     [ApiController]
     public class EmployeeAPIController : ControllerBase
     {
@@ -34,7 +34,8 @@ namespace EmployeeWebAPI.Controllers
             return Ok("Employee Added Successfully");
         }
 
-        [HttpDelete("{id}")]
+        [Route("/DeleteEmp/{id}")]
+        [HttpDelete]
         public IActionResult RemoveEmployee(int id)
         {
             var res = _dbContext.EmployeeAPI.Find(id);

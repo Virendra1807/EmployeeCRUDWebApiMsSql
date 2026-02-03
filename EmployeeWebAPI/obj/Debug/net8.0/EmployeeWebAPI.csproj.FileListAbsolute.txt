@@ -254,3 +254,4 @@ C:\Users\Dell\source\repos\EmployeeWebAPI\EmployeeWebAPI\obj\Debug\net8.0\refint
 C:\Users\Dell\source\repos\EmployeeWebAPI\EmployeeWebAPI\obj\Debug\net8.0\EmployeeWebAPI.pdb
 C:\Users\Dell\source\repos\EmployeeWebAPI\EmployeeWebAPI\obj\Debug\net8.0\EmployeeWebAPI.genruntimeconfig.cache
 C:\Users\Dell\source\repos\EmployeeWebAPI\EmployeeWebAPI\obj\Debug\net8.0\ref\EmployeeWebAPI.dll
+C:\Users\Dell\source\repos\EmployeeWebAPI\EmployeeWebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

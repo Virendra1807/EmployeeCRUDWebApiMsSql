@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/EmployeeAPI/GetAllEmployee/GetAllEmp": {
+    "/api/EmployeeAPI/GetAllEmp": {
       "get": {
         "tags": [
           "EmployeeAPI"
@@ -17,7 +17,7 @@
         }
       }
     },
-    "/api/EmployeeAPI/AddEmployee": {
+    "/api/EmployeeAPI": {
       "post": {
         "tags": [
           "EmployeeAPI"
@@ -48,7 +48,7 @@
         }
       }
     },
-    "/api/EmployeeAPI/RemoveEmployee/{id}": {
+    "/DeleteEmp/{id}": {
       "delete": {
         "tags": [
           "EmployeeAPI"

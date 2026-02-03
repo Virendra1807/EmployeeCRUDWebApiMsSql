@@ -2,7 +2,7 @@
   {
     "ContainingType": "EmployeeWebAPI.Controllers.EmployeeAPIController",
     "Method": "AddEmployee",
-    "RelativePath": "api/EmployeeAPI/AddEmployee",
+    "RelativePath": "api/EmployeeAPI",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,7 @@
   {
     "ContainingType": "EmployeeWebAPI.Controllers.EmployeeAPIController",
     "Method": "GetAllEmployee",
-    "RelativePath": "api/EmployeeAPI/GetAllEmployee/GetAllEmp",
+    "RelativePath": "api/EmployeeAPI/GetAllEmp",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "EmployeeWebAPI.Controllers.EmployeeAPIController",
     "Method": "RemoveEmployee",
-    "RelativePath": "api/EmployeeAPI/RemoveEmployee/{id}",
+    "RelativePath": "DeleteEmp/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
